@@ -1,0 +1,156 @@
+html,
+
+body {
+	padding: 0;
+    margin: 0;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 990px;
+    background: #EEE;
+    font: normal normal 400 1em o-HelveticaNeue, Helvetica, Arial, sans-serif;
+    color: #000;
+    -webkit-font-feature-settings: 'kern' 1;
+    -moz-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1
+}
+#legende {
+	padding-left: 15px
+}
+.listing-precipitation {
+    padding-top: 30px
+}
+
+.details {
+    display: block;
+    background: #FFF;
+    border-bottom: 0;
+    padding-bottom: 15px
+}
+
+.details .graphique-time-list {
+    list-style-type: none;
+    padding: 0;
+    width: 105%;
+    overflow: hidden;
+    margin: 0 -2.5%
+}
+
+.details .graphique-time-item {
+    font-family: o-HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    width: 14.25%;
+    float: left;
+    text-align: center;
+    padding-bottom: 10px
+}
+
+.details .rain-1 {
+    background: #d2d2d2
+}
+
+.details .rain-2 {
+    background: #b5e8f7
+}
+
+.details .rain-3 {
+    background: #4bb4e6
+}
+
+.details .rain-4 {
+    background: #085ebd
+}
+
+.details .rain-0 {
+    background: #797878
+}
+
+.details .graphique-graf-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.details .graphique-graf-item {
+    float: left;
+    width: 8.03%;
+    margin-left: .3%
+}
+
+.details .graphique-legend-list {
+    list-style-type: none;
+    width: 90%
+}
+
+.details .graphique-legend-item {
+    display: inline-block;
+    font-family: o-HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    white-space: nowrap
+}
+
+.lt-ie8 .details .graphique-legend-item {
+    display: inline;
+    zoom: 1
+}
+
+.details .rain1 {
+    width: 18%
+}
+
+.details .rain2 {
+    width: 18%
+}
+
+.details .rain3 {
+    width: 19%
+}
+
+.details .rain4 {
+    width: 16%
+}
+
+.details .rain0 {
+    width: 18%
+}
+
+.details .legende-goutte {
+    display: inline-block;
+    background-image: url(goutte.png);
+    width: 16px;
+    height: 20px;
+    margin-right: 8px
+}
+
+.lt-ie8 .details .legende-goutte {
+    display: inline;
+    zoom: 1
+}
+
+.lt-ie8 .raining .details .graphique-time-item {
+    width: 13.9%
+}
+
+.lt-ie8 .raining .details .graphique-graf-list {
+    display: inline
+}
+
+.lt-ie8 .raining .details .graphique-legend-item {
+    display: inline;
+    font-size: 12px;
+    width: 20%
+}
+
+.details .graphique-graf-item {
+    height: 10px
+}
+
+.details .graphique-graf-list {
+    width: 90%
+}
+
+.details .graphique-legend-list {
+    padding: 0 0 20px 0;
+    margin: 30px auto 0
+}
